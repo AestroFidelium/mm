@@ -4,3 +4,348 @@ INFO: Loaded class registry: MFR mod support
 INFO: MineTweaker: Building registry
 INFO: MineTweaker: Sucessfully built item registry
 INFO: Adding minetweaker command mfr
+INFO: Adding recipe for Творческий сейф
+INFO: Adding recipe for Draconic Reactor Core
+INFO: Adding recipe for Neutronium Gear
+INFO: Removing 1 recipes
+INFO: Removing 0 recipes
+INFO: Removing 0 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 0 recipes
+INFO: Removing 0 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 2 recipes
+INFO: Removing 46 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 2 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 0 recipes
+INFO: Removing 2 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Adding recipe for Стол трансмутаций
+INFO: Adding recipe for Философский камень
+INFO: Adding recipe for Планшет трансмутаций
+INFO: Adding recipe for Star Fuel
+INFO: Adding recipe for Лавовый шар
+INFO: Adding recipe for Взрывная линза
+INFO: Adding recipe for Шар добычи
+INFO: Adding recipe for Случайный шар
+INFO: Adding recipe for Водяной шар
+INFO: Adding recipe for Маленькая звезда 1
+INFO: Translating item.pe_water_orb.name to Lapis Catalyst
+INFO: Translating item.pe_lava_orb.name to Redstone Catalyst
+INFO: Translating item.pe_loot_ball.name to Leaden Catalyst
+INFO: Translating item.pe_lens_explosive.name to Golden Catalyst
+INFO: Translating item.pe_randomizer.name to Godness Catalyst
+INFO: Translating item.pe_klein_star_1.name to Крошечная часть звезды
+INFO: Translating item.pe_klein_star_2.name to Частица звезды
+INFO: Translating item.pe_klein_star_3.name to Часть звезды
+INFO: Translating item.pe_klein_star_4.name to Сломанная звезда
+INFO: Translating item.pe_klein_star_5.name to Звезда
+INFO: Translating item.pe_klein_star_6.name to Искрящая звезда
+ERROR: main.zs:60: Could not resolve <MagicBees : miscResources : 5>
+INFO: Removing 1 recipes
+INFO: Removing 0 recipes
+INFO: Removing 2 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 0 recipes
+INFO: Adding recipe for Draconic Core
+INFO: Adding recipe for Infinity Catalyst
+INFO: Adding recipe for Улучшенная Ваджра
+INFO: Adding recipe for Вечно наполненный бассейн
+INFO: Adding recipe for Творческая энергетическая ячейка
+INFO: Adding recipe for Awakened Draconium Ingot
+INFO: Adding recipe for Awakened Draconium Block
+INFO: Adding recipe for Dragon Heart
+ERROR: Error executing main.zs: null
+java.lang.NullPointerException
+	at minetweaker.mc1710.recipes.MCRecipeManager$ActionAddRecipe.describe(MCRecipeManager.java:382)
+	at minetweaker.runtime.MTTweaker.apply(MTTweaker.java:51)
+	at minetweaker.MineTweakerAPI.apply(MineTweakerAPI.java:173)
+	at minetweaker.mc1710.recipes.MCRecipeManager.addShaped(MCRecipeManager.java:399)
+	at minetweaker.mc1710.recipes.MCRecipeManager.addShaped(MCRecipeManager.java:102)
+	at Main.__script__(main.zs:60)
+	at __ZenMain__.run(main.zs)
+	at minetweaker.runtime.MTTweaker.load(MTTweaker.java:163)
+	at minetweaker.MineTweakerImplementationAPI.reload(MineTweakerImplementationAPI.java:682)
+	at minetweaker.mc1710.network.MineTweakerLoadScriptsHandler.onMessage(MineTweakerLoadScriptsHandler.java:28)
+	at minetweaker.mc1710.network.MineTweakerLoadScriptsHandler.onMessage(MineTweakerLoadScriptsHandler.java:21)
+	at cpw.mods.fml.common.network.simpleimpl.SimpleChannelHandlerWrapper.channelRead0(SimpleChannelHandlerWrapper.java:37)
+	at cpw.mods.fml.common.network.simpleimpl.SimpleChannelHandlerWrapper.channelRead0(SimpleChannelHandlerWrapper.java:17)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:98)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeChannelRead(DefaultChannelHandlerContext.java:337)
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:323)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:101)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeChannelRead(DefaultChannelHandlerContext.java:337)
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:323)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:101)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeChannelRead(DefaultChannelHandlerContext.java:337)
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:323)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103)
+	at io.netty.handler.codec.MessageToMessageCodec.channelRead(MessageToMessageCodec.java:111)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeChannelRead(DefaultChannelHandlerContext.java:337)
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:323)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:785)
+	at io.netty.channel.embedded.EmbeddedChannel.writeInbound(EmbeddedChannel.java:169)
+	at cpw.mods.fml.common.network.internal.FMLProxyPacket.func_148833_a(FMLProxyPacket.java:77)
+	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:212)
+	at net.minecraft.client.multiplayer.GuiConnecting.func_73876_c(SourceFile:78)
+	at net.minecraft.client.Minecraft.func_71407_l(Minecraft.java:1661)
+	at net.minecraft.client.Minecraft.func_71411_J(Minecraft.java:973)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:898)
+	at net.minecraft.client.main.Main.main(SourceFile:148)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+INFO: Removing recipe for Dragon Heart
+INFO: Removing recipe for Awakened Draconium Block
+INFO: Removing recipe for Awakened Draconium Ingot
+INFO: Removing recipe for Творческая энергетическая ячейка
+INFO: Removing recipe for Вечно наполненный бассейн
+INFO: Removing recipe for Улучшенная Ваджра
+INFO: Removing recipe for Infinity Catalyst
+INFO: Removing recipe for Draconic Core
+INFO: Restoring 0 recipes
+INFO: Restoring 1 recipes
+INFO: Restoring 1 recipes
+INFO: Restoring 1 recipes
+INFO: Restoring 1 recipes
+INFO: Restoring 1 recipes
+INFO: Restoring 1 recipes
+INFO: Restoring 1 recipes
+INFO: Restoring 1 recipes
+INFO: Restoring 1 recipes
+INFO: Restoring 2 recipes
+INFO: Restoring 0 recipes
+INFO: Restoring 1 recipes
+INFO: Reverting item.pe_klein_star_6.name to Маленькая звезда Омега
+INFO: Reverting item.pe_klein_star_5.name to Маленькая звезда Сфера
+INFO: Reverting item.pe_klein_star_4.name to Маленькая звезда 4
+INFO: Reverting item.pe_klein_star_3.name to Маленькая звезда 3
+INFO: Reverting item.pe_klein_star_2.name to Маленькая звезда 2
+INFO: Reverting item.pe_klein_star_1.name to Маленькая звезда 1
+INFO: Reverting item.pe_randomizer.name to Случайный шар
+INFO: Reverting item.pe_lens_explosive.name to Взрывная линза
+INFO: Reverting item.pe_loot_ball.name to Шар добычи
+INFO: Reverting item.pe_lava_orb.name to Лавовый шар
+INFO: Reverting item.pe_water_orb.name to Водяной шар
+INFO: Removing recipe for Маленькая звезда 1
+INFO: Removing recipe for Водяной шар
+INFO: Removing recipe for Случайный шар
+INFO: Removing recipe for Шар добычи
+INFO: Removing recipe for Взрывная линза
+INFO: Removing recipe for Лавовый шар
+INFO: Removing recipe for Star Fuel
+INFO: Removing recipe for Планшет трансмутаций
+INFO: Removing recipe for Философский камень
+INFO: Removing recipe for Стол трансмутаций
+INFO: Restoring 1 recipes
+INFO: Restoring 1 recipes
+INFO: Restoring 2 recipes
+INFO: Restoring 0 recipes
+INFO: Restoring 1 recipes
+INFO: Restoring 1 recipes
+INFO: Restoring 1 recipes
+INFO: Restoring 1 recipes
+INFO: Restoring 1 recipes
+INFO: Restoring 2 recipes
+INFO: Restoring 1 recipes
+INFO: Restoring 1 recipes
+INFO: Restoring 1 recipes
+INFO: Restoring 46 recipes
+INFO: Restoring 2 recipes
+INFO: Restoring 1 recipes
+INFO: Restoring 1 recipes
+INFO: Restoring 1 recipes
+INFO: Restoring 1 recipes
+INFO: Restoring 1 recipes
+INFO: Restoring 1 recipes
+INFO: Restoring 1 recipes
+INFO: Restoring 1 recipes
+INFO: Restoring 1 recipes
+INFO: Restoring 1 recipes
+INFO: Restoring 0 recipes
+INFO: Restoring 0 recipes
+INFO: Restoring 1 recipes
+INFO: Restoring 1 recipes
+INFO: Restoring 1 recipes
+INFO: Restoring 1 recipes
+INFO: Restoring 1 recipes
+INFO: Restoring 1 recipes
+INFO: Restoring 1 recipes
+INFO: Restoring 1 recipes
+INFO: Restoring 1 recipes
+INFO: Restoring 0 recipes
+INFO: Restoring 0 recipes
+INFO: Restoring 1 recipes
+INFO: Removing recipe for Neutronium Gear
+INFO: Removing recipe for Draconic Reactor Core
+INFO: Removing recipe for Творческий сейф
+INFO: tried to remove command: mfr failed. THIS IS NOT AN ERROR!
+INFO: 
+INFO: Removing 1 recipes
+INFO: Adding recipe for Время
+INFO: Adding recipe for Творческий сейф
+INFO: Adding recipe for Draconic Reactor Core
+INFO: Adding recipe for Neutronium Gear
+INFO: Removing 1 recipes
+INFO: Removing 0 recipes
+INFO: Removing 0 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 0 recipes
+INFO: Removing 0 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 2 recipes
+INFO: Removing 46 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 2 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 0 recipes
+INFO: Removing 2 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Adding recipe for Стол трансмутаций
+INFO: Adding recipe for Философский камень
+INFO: Adding recipe for Планшет трансмутаций
+INFO: Adding recipe for Star Fuel
+INFO: Adding recipe for Лавовый шар
+INFO: Adding recipe for Взрывная линза
+INFO: Adding recipe for Шар добычи
+INFO: Adding recipe for Случайный шар
+INFO: Adding recipe for Водяной шар
+INFO: Adding recipe for Маленькая звезда 1
+INFO: Translating item.pe_water_orb.name to Lapis Catalyst
+INFO: Translating item.pe_lava_orb.name to Redstone Catalyst
+INFO: Translating item.pe_loot_ball.name to Leaden Catalyst
+INFO: Translating item.pe_lens_explosive.name to Golden Catalyst
+INFO: Translating item.pe_randomizer.name to Divine Catalyst
+INFO: Translating item.pe_klein_star_1.name to Крошечная часть звезды
+INFO: Translating item.pe_klein_star_2.name to Частица звезды
+INFO: Translating item.pe_klein_star_3.name to Часть звезды
+INFO: Translating item.pe_klein_star_4.name to Сломанная звезда
+INFO: Translating item.pe_klein_star_5.name to Звезда
+INFO: Translating item.pe_klein_star_6.name to Искрящая звезда
+ERROR: main.zs:60: Could not resolve <MagicBees : miscResources : 5>
+INFO: Removing 1 recipes
+INFO: Removing 0 recipes
+INFO: Removing 0 recipes
+INFO: Removing 2 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 0 recipes
+INFO: Adding recipe for Draconic Core
+INFO: Adding recipe for Infinity Catalyst
+INFO: Adding recipe for Улучшенная Ваджра
+INFO: Adding recipe for Вечно наполненный бассейн
+INFO: Adding recipe for Творческая энергетическая ячейка
+INFO: Adding recipe for Awakened Draconium Ingot
+INFO: Adding recipe for Awakened Draconium Block
+INFO: Adding recipe for Dragon Heart
+ERROR: Error executing main.zs: null
+java.lang.NullPointerException
+	at minetweaker.mc1710.recipes.MCRecipeManager$ActionAddRecipe.describe(MCRecipeManager.java:382)
+	at minetweaker.runtime.MTTweaker.apply(MTTweaker.java:51)
+	at minetweaker.MineTweakerAPI.apply(MineTweakerAPI.java:173)
+	at minetweaker.mc1710.recipes.MCRecipeManager.addShaped(MCRecipeManager.java:399)
+	at minetweaker.mc1710.recipes.MCRecipeManager.addShaped(MCRecipeManager.java:102)
+	at Main.__script__(main.zs:60)
+	at __ZenMain__.run(main.zs)
+	at minetweaker.runtime.MTTweaker.load(MTTweaker.java:163)
+	at minetweaker.MineTweakerImplementationAPI.reload(MineTweakerImplementationAPI.java:682)
+	at minetweaker.mc1710.network.MineTweakerLoadScriptsHandler.onMessage(MineTweakerLoadScriptsHandler.java:28)
+	at minetweaker.mc1710.network.MineTweakerLoadScriptsHandler.onMessage(MineTweakerLoadScriptsHandler.java:21)
+	at cpw.mods.fml.common.network.simpleimpl.SimpleChannelHandlerWrapper.channelRead0(SimpleChannelHandlerWrapper.java:37)
+	at cpw.mods.fml.common.network.simpleimpl.SimpleChannelHandlerWrapper.channelRead0(SimpleChannelHandlerWrapper.java:17)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:98)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeChannelRead(DefaultChannelHandlerContext.java:337)
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:323)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:101)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeChannelRead(DefaultChannelHandlerContext.java:337)
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:323)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:101)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeChannelRead(DefaultChannelHandlerContext.java:337)
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:323)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103)
+	at io.netty.handler.codec.MessageToMessageCodec.channelRead(MessageToMessageCodec.java:111)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeChannelRead(DefaultChannelHandlerContext.java:337)
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:323)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:785)
+	at io.netty.channel.embedded.EmbeddedChannel.writeInbound(EmbeddedChannel.java:169)
+	at cpw.mods.fml.common.network.internal.FMLProxyPacket.func_148833_a(FMLProxyPacket.java:77)
+	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:212)
+	at net.minecraft.client.multiplayer.PlayerControllerMP.func_78765_e(PlayerControllerMP.java:273)
+	at net.minecraft.client.Minecraft.func_71407_l(Minecraft.java:1602)
+	at net.minecraft.client.Minecraft.func_71411_J(Minecraft.java:973)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:898)
+	at net.minecraft.client.main.Main.main(SourceFile:148)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)

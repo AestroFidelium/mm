@@ -3,7 +3,7 @@ mouseSensitivity:0.5
 fov:1.0
 gamma:1.0
 saturation:0.0
-renderDistance:9
+renderDistance:15
 guiScale:2
 particles:2
 bobView:false
@@ -25,7 +25,7 @@ chatLinksPrompt:true
 chatOpacity:1.0
 snooperEnabled:true
 fullscreen:false
-enableVsync:true
+enableVsync:false
 hideServerAddress:false
 advancedItemTooltips:false
 pauseOnLostFocus:true
@@ -63,7 +63,7 @@ key_key.jump:57
 key_key.sneak:42
 key_key.drop:16
 key_key.inventory:18
-key_key.chat:20
+key_key.chat:28
 key_key.playerlist:15
 key_key.pickItem:-98
 key_key.command:53
@@ -85,6 +85,7 @@ key_key.hotbar.6:7
 key_key.hotbar.7:8
 key_key.hotbar.8:9
 key_key.hotbar.9:10
+key_of.key.zoom:56
 key_ALT Key:0
 key_Boost Key:0
 key_Mode Switch Key:0
@@ -101,6 +102,15 @@ key_key.placeItem:0
 key_key.toolConfig:0
 key_key.toolProfileChange:0
 key_key.toggleFlight:0
+key_Переключить планер:0
+key_Звуколокатор:0
+key_Ночное зрение:0
+key_Очки откровения:0
+key_Шаг вверх:0
+key_Скорость:0
+key_Прыжок:0
+key_Режим ключа Yeta:21
+key_Переключить электромагнит:0
 key_[GC] Галактическая карта:50
 key_[GC] Открыть инвентарь космического корабля:33
 key_[GC] Переключить режим очков с сенсорами:37
@@ -111,8 +121,18 @@ key_pe.key.charge:0
 key_pe.key.extra_function:0
 key_pe.key.fire_projectile:0
 key_pe.key.mode:0
-soundCategory_master:1.0
-soundCategory_music:1.0
+key_key.cofh.empower:47
+key_key.cofh.multimode:46
+key_key.journeymap.map_toggle:36
+key_key.journeymap.zoom_in:13
+key_key.journeymap.zoom_out:12
+key_key.journeymap.minimap_type:27
+key_key.journeymap.minimap_type:27
+key_key.journeymap.minimap_preset:43
+key_key.journeymap.create_waypoint:48
+key_key.portaitreposition:52
+soundCategory_master:0.3178808
+soundCategory_music:0.12676056
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0
