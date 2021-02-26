@@ -1,0 +1,41 @@
+{"editor.semanticTokenColorCustomizations": {
+    "enabled": true
+},
+"editor.tokenColorCustomizations": {
+    "textMateRules": [
+        {
+            "name": "variable",
+            "scope": ["source.zenscript"],
+            "settings": {
+                "foreground": "#6dffc7"
+            }
+        },
+        {
+            "name": "variable",
+            "scope": ["entity.name.function.zenscript"],
+            "settings": {
+                "foreground": "#fffd6d"
+            }
+        },
+        {
+            "name": "variable",
+            "scope": ["variable.parameter.brackethandler.zenscript"],
+            "settings": {
+                "foreground": "#ff6d6d"
+            }
+        },
+        {
+            "name": "variable",
+            "scope": ["variable.language.brackethandler.zenscript"],
+            "settings": {
+                "foreground": "#ffc76d"
+            }
+        }
+
+
+        
+
+        
+    ]
+}}
+
